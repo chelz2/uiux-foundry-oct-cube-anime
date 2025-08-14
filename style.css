@@ -5,6 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -43,31 +44,37 @@ body {
 .front {
   background-color: #c26679;
   transform: translateZ(100px);
+  font-weight: lighter;
 }
 
 .back {
   background-color: #0d7ad9;
   transform: rotateY(180deg) translateZ(100px);
+  font-weight: lighter;
 }
 
 .right {
   background-color: #2ab81d;
   transform: rotateY(90deg) translateZ(100px);
+  font-weight: lighter;
 }
 
 .left {
   background-color: #f2cb05;
   transform: rotateY(-90deg) translateZ(100px);
+  font-weight: lighter;
 }
 
 .top {
   background-color: #e81e17;
   transform: rotateX(90deg) translateZ(100px);
+  font-weight: lighter;
 }
 
 .bottom {
   background-color: #30183a;
   transform: rotateX(-90deg) translateZ(100px);
+  font-weight: lighter;
 }
 
 @keyframes rotateCube {
